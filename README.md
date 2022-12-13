@@ -14,7 +14,7 @@ Dockerfile                      			--> The Dockerfile used to build the containe
 get_street_and_number.py				--> Orchestrates the task returning address street and number using sample cases 
 Pipfile                          			--> Package requirements for pipenv
 README.md                        			--> This README
-test_street_and_number.py					--> Tests the task returning address street and number using sample cases 
+test_street_and_number.py				--> Tests the task returning address street and number using sample cases 
 ```
 
 ## Input and Output Data
