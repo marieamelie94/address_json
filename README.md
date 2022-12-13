@@ -25,7 +25,7 @@ Output: string of street and string of street-number as JSON object
 
 ## Deployment
 
-The master branch is used to build a container and is uploaded to ECR by Github Actions (as an example, we could deploy the container to many other services). The AWS parameters would be defined as Secrets in Github (here it is only an example and did not set up any secrets). Here once deployed the job can be run in a Fargate task.
+The master branch is used to build a container and is uploaded to AWS ECR by Github Actions (as an example, we could deploy the container to many other services). The AWS parameters would be defined as Secrets in the project (here I did not set up any secrets).
 
 
 ## Execution
