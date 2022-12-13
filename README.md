@@ -1,7 +1,8 @@
 # address_json
 Returns separated street and number in JSON fromat from an address string.
 For this case I opted for not using APIs or modules and use regular expressions 
-(which surely have limitations and don't cover many edge cases, but for the input we have and scope I figured it would be a good start and can be built on using libraries, or the google geocoding api) 
+(which surely have limitations and don't cover many edge cases, but for the input we have and scope I figured it would be a good start and can be built on using libraries, or the google geocoding api).
+Currently when executing the task sample addresses are used (which for example can be changed connecting to a DB and parsing the query results).
 
 ## Directory Layout
 ```
