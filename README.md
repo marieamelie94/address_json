@@ -7,10 +7,10 @@ For this case I opted for not using APIs or modules and use regular expressions
 ```
 bin/
 	get_street_and_number_docker.sh         --> Execution script to trigger the task from the container
-    test_street_and_number_docker.sh        --> Execution script to trigger the tests from the container
+    	test_street_and_number_docker.sh        --> Execution script to trigger the tests from the container
 
 Dockerfile                      			--> The Dockerfile used to build the container (here for being pushed to AWS ECR)
-get_street_and_number.py					--> Orchestrates the task returning address street and number using sample cases 
+get_street_and_number.py				--> Orchestrates the task returning address street and number using sample cases 
 Pipfile                          			--> Package requirements for pipenv
 README.md                        			--> This README
 test_street_and_number.py					--> Tests the task returning address street and number using sample cases 
